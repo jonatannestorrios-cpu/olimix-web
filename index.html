@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Olimix | Frutos secos, mix y especias en Tandil · Pedidos por WhatsApp</title>
+  <meta name="description" content="Frutos secos, mix, cereales y especias en Tandil. Por 500 g, por kilo y en doypack de 100 g. Mirá precios y hacé tu pedido por WhatsApp. Olimix, secos de las sierras.">
+  <meta name="keywords" content="frutos secos Tandil, mix de frutos secos Tandil, almendras Tandil, nueces Tandil, castañas de cajú Tandil, especias Tandil, granola Tandil, dietética Tandil, frutos secos por kilo, Olimix">
+  <meta name="theme-color" content="#0E3B2E">
+  <meta name="robots" content="index, follow">
+
+  <!-- Vista previa al compartir (WhatsApp, Instagram, Facebook) -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_AR">
+  <meta property="og:site_name" content="Olimix">
+  <meta property="og:title" content="Olimix · Secos de las sierras, Tandil">
+  <meta property="og:description" content="Frutos secos, mix y especias. Mirá precios y pedí por WhatsApp.">
+  <meta property="og:image" content="compartir.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@600;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="estilos.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Store",
+    "name": "Olimix",
+    "alternateName": "Olimix · Secos de las sierras",
+    "description": "Venta de frutos secos, mix, cereales, especias y sales saborizadas en Tandil.",
+    "image": "logo-512.png",
+    "logo": "logo-512.png",
+    "telephone": "+54 9 11 6003-1994",
+    "address": { "@type": "PostalAddress", "addressLocality": "Tandil", "addressRegion": "Buenos Aires", "addressCountry": "AR" },
+    "areaServed": "Tandil",
+    "sameAs": ["https://www.instagram.com/olimix.tandil/"],
+    "priceRange": "$$"
+  }
+  </script>
+</head>
+<body>
+  <a class="saltar" href="#catalogo">Ir a los productos</a>
+
+  <header class="cabecera">
+    <div class="cabecera__in">
+      <a class="marca" href="#inicio" aria-label="Olimix, ir al inicio">
+        <img src="logo.webp" width="44" height="44" alt="">
+        <span class="marca__txt">Olimix</span>
+      </a>
+      <nav class="menu" aria-label="Secciones">
+        <a href="#catalogo">Productos</a>
+        <a href="#promos">Promos</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#contacto">Contacto</a>
+        <a href="#preguntas">Preguntas</a>
+      </nav>
+      <button class="btn-pedido-mini" type="button" data-abrir-pedido aria-label="Ver tu pedido">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 7h12l-1.2 11.2a2 2 0 0 1-2 1.8H9.2a2 2 0 0 1-2-1.8L6 7Zm3 0V6a3 3 0 0 1 6 0v1" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span class="contador" data-contador hidden>0</span>
+      </button>
+    </div>
+  </header>
+
+  <div class="bienvenida" id="bienvenida" role="status" hidden>
+    <p><strong>¡Hola! Llegaste desde Instagram.</strong> Acá tenés todos los precios: armá tu pedido y te lo confirmamos por WhatsApp.</p>
+    <button type="button" class="bienvenida__cerrar" aria-label="Cerrar mensaje">×</button>
+  </div>
+
+  <main>
+    <!-- ============ INICIO ============ -->
+    <section class="hero" id="inicio" aria-labelledby="hero-titulo">
+      <div class="hero__in">
+        <div class="hero__texto">
+          <p class="hero__lugar">Secos de las sierras · Tandil</p>
+          <h1 id="hero-titulo">Energía natural, sabor de las sierras</h1>
+          <p class="hero__bajada">Frutos secos, mix, cereales y especias por 500 g, por kilo y en doypack de 100 g. Elegí, armá tu pedido y lo coordinamos por WhatsApp.</p>
+          <div class="hero__acciones">
+            <a class="btn btn--accion" data-wa="Hola Olimix! Quiero hacer un pedido." href="#contacto">
+              <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-wa"/></svg>
+              Hacé tu pedido por WhatsApp
+            </a>
+            <a class="btn btn--claro" href="#catalogo">Ver productos</a>
+          </div>
+        </div>
+        <figure class="hero__foto">
+          <div class="almendra">
+            <img src="portada.webp" width="1100" height="1556" alt="Almendras, nueces, castañas de cajú y pasas de uva mezcladas" fetchpriority="high">
+          </div>
+          <img class="hero__sello" src="logo.webp" width="132" height="132" alt="Logo de Olimix, secos de las sierras">
+        </figure>
+      </div>
+      <svg class="sierra" viewBox="0 0 1440 90" preserveAspectRatio="none" aria-hidden="true">
+        <path d="M0 90V62l120-34 90 26 150-48 110 40 70-18 160 54 140-60 120 36 90-22 180 46 110-30 100 20v68Z"/>
+      </svg>
+    </section>
+
+    <!-- ============ CÓMO PEDIR ============ -->
+    <section class="pasos" aria-labelledby="pasos-titulo">
+      <h2 id="pasos-titulo" class="titulo-sec">Pedir es así de simple</h2>
+      <ol class="pasos__lista">
+        <li><span class="pasos__n">1</span><p><strong>Elegí</strong> los productos y la presentación que querés.</p></li>
+        <li><span class="pasos__n">2</span><p><strong>Tocá “Enviar pedido”</strong> y se abre WhatsApp con todo el detalle.</p></li>
+        <li><span class="pasos__n">3</span><p><strong>Te respondemos</strong> para confirmar el pedido, la entrega y el pago.</p></li>
+      </ol>
+    </section>
+
+    <!-- ============ CATÁLOGO ============ -->
+    <section class="catalogo" id="catalogo" aria-labelledby="cat-titulo">
+      <div class="catalogo__cab">
+        <h2 id="cat-titulo" class="titulo-sec">Productos y precios</h2>
+        <p class="nota" data-fecha-lista></p>
+      </div>
+
+      <div class="filtros" role="search">
+        <label class="buscar">
+          <span class="sr">Buscar producto</span>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="m16 16 4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          <input type="search" id="buscar" placeholder="Buscar: almendra, granola, orégano…" autocomplete="off">
+        </label>
+        <div class="chips" id="chips" role="group" aria-label="Filtrar por categoría"></div>
+      </div>
+
+      <div id="listado" aria-live="polite"></div>
+      <p class="vacio" id="vacio" hidden>No encontramos ese producto. <a data-wa="Hola Olimix! ¿Tienen este producto?: " href="#contacto">Preguntanos por WhatsApp</a> y te decimos si lo conseguimos.</p>
+
+      <aside class="doypack">
+        <img src="doypack.webp" width="720" height="960" loading="lazy" alt="Doypack Olimix de 100 g con mix de frutos secos, cierre zipper y ventana transparente">
+        <div>
+          <h3>El doypack de 100 g</h3>
+          <p>Bolsa con cierre zipper y ventana transparente, para que veas lo que llevás. Práctico para la mochila, la oficina o para regalar.</p>
+          <a class="btn btn--accion btn--chico" href="#catalogo" data-filtrar-doypack>Ver precios en doypack</a>
+        </div>
+      </aside>
+    </section>
+
+    <!-- ============ PROMOS ============ -->
+    <section class="promos" id="promos" aria-labelledby="promos-titulo">
+      <h2 id="promos-titulo" class="titulo-sec">Promociones y novedades</h2>
+      <div class="promos__grid" id="promos-lista"></div>
+    </section>
+
+    <!-- ============ NOSOTROS ============ -->
+    <section class="nosotros" id="nosotros" aria-labelledby="nos-titulo">
+      <img src="logo.webp" width="180" height="180" loading="lazy" alt="Logo de Olimix: una almendra con la silueta de las sierras">
+      <div>
+        <h2 id="nos-titulo" class="titulo-sec">Somos Olimix, de Tandil</h2>
+        <p>Olimix es una marca de Tandil dedicada a los frutos secos, las mezclas y los productos para la alacena de todos los días. Armamos nuestros mix, fraccionamos en distintas presentaciones y atendemos cada pedido de forma directa, por WhatsApp.</p>
+        <p>Nuestro logo junta dos cosas que nos representan: una almendra y la silueta de las sierras. Por eso somos <em>secos de las sierras</em>.</p>
+        <p class="lema">De Tandil, para el mundo.</p>
+      </div>
+    </section>
+
+    <!-- ============ CONTACTO ============ -->
+    <section class="contacto" id="contacto" aria-labelledby="con-titulo">
+      <h2 id="con-titulo" class="titulo-sec">Contacto y pedidos</h2>
+      <div class="contacto__grid">
+        <div class="contacto__datos">
+          <a class="dato" data-wa="Hola Olimix! Quiero hacer una consulta." href="#contacto">
+            <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-wa"/></svg>
+            <span><strong>WhatsApp</strong><span data-tel></span></span>
+          </a>
+          <a class="dato" data-ig href="#contacto" target="_blank" rel="noopener">
+            <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor"/></svg>
+            <span><strong>Instagram</strong><span data-ig-user></span></span>
+          </a>
+          <div class="dato">
+            <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11Z" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="10" r="2.3" fill="currentColor"/></svg>
+            <span><strong>Dónde estamos</strong><span data-ciudad></span></span>
+          </div>
+          <div class="info-extra" id="info-extra"></div>
+        </div>
+
+        <form class="form" id="form-contacto" novalidate>
+          <h3>Escribinos</h3>
+          <p class="nota">Completá y tocá enviar: se abre WhatsApp con tu mensaje listo.</p>
+          <label>Tu nombre
+            <input name="nombre" autocomplete="name" required maxlength="60">
+          </label>
+          <label>Tu mensaje
+            <textarea name="mensaje" rows="4" required maxlength="600" placeholder="Ej: ¿Tienen almendras por 5 kg?"></textarea>
+          </label>
+          <p class="form__error" id="form-error" role="alert" hidden></p>
+          <button class="btn btn--accion" type="submit">
+            <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-wa"/></svg>
+            Enviar por WhatsApp
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- ============ PREGUNTAS ============ -->
+    <section class="preguntas" id="preguntas" aria-labelledby="faq-titulo">
+      <h2 id="faq-titulo" class="titulo-sec">Preguntas frecuentes</h2>
+      <div id="faq"></div>
+      <p class="preguntas__cta">¿Te quedó otra duda? <a data-wa="Hola Olimix! Tengo una consulta: " href="#contacto">Preguntanos por WhatsApp</a>.</p>
+    </section>
+  </main>
+
+  <footer class="pie">
+    <div class="pie__in">
+      <img src="logo.webp" width="72" height="72" loading="lazy" alt="Olimix">
+      <p class="pie__lema">De Tandil, para el mundo</p>
+      <p class="nota" data-pie-precios></p>
+      <div class="pie__acciones">
+        <button class="btn btn--claro btn--chico" type="button" id="compartir">Compartir la web</button>
+        <a class="btn btn--claro btn--chico" data-ig href="#contacto" target="_blank" rel="noopener">Seguinos en Instagram</a>
+      </div>
+      <p class="pie__copy">© <span id="anio"></span> Olimix · Tandil, Buenos Aires</p>
+    </div>
+  </footer>
+
+  <!-- Botón flotante de WhatsApp -->
+  <a class="wa-flotante" data-wa="Hola Olimix! Quiero hacer una consulta." href="#contacto" aria-label="Escribinos por WhatsApp">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-wa"/></svg>
+  </a>
+
+  <!-- Barra del pedido -->
+  <div class="barra-pedido" id="barra-pedido" hidden>
+    <button type="button" data-abrir-pedido class="barra-pedido__btn">
+      <span><span data-contador-texto></span> · <strong data-total></strong></span>
+      <span class="barra-pedido__ver">Ver pedido</span>
+    </button>
+  </div>
+
+  <!-- Panel del pedido -->
+  <dialog class="panel" id="panel-pedido" aria-labelledby="panel-titulo">
+    <div class="panel__cab">
+      <h2 id="panel-titulo">Tu pedido</h2>
+      <button type="button" class="panel__cerrar" data-cerrar-pedido aria-label="Cerrar">×</button>
+    </div>
+    <ul class="panel__lista" id="pedido-lista"></ul>
+    <p class="panel__vacio" id="pedido-vacio">Todavía no sumaste productos. <a href="#catalogo" data-cerrar-pedido>Ver productos</a></p>
+    <div class="panel__pie" id="pedido-pie">
+      <div class="panel__total"><span>Total estimado</span><strong data-total></strong></div>
+      <p class="nota" id="pedido-minimo"></p>
+      <label>Tu nombre <span class="opc">(opcional)</span>
+        <input id="pedido-nombre" autocomplete="name" maxlength="60">
+      </label>
+      <label>Comentario <span class="opc">(opcional)</span>
+        <input id="pedido-nota" maxlength="200" placeholder="Ej: sabor del maní cervecero, barrio…">
+      </label>
+      <button class="btn btn--accion btn--ancho" type="button" id="enviar-pedido">
+        <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-wa"/></svg>
+        Enviar pedido por WhatsApp
+      </button>
+      <button class="panel__vaciar" type="button" id="vaciar-pedido">Vaciar pedido</button>
+    </div>
+  </dialog>
+
+  <div class="aviso" id="aviso" role="status" aria-live="polite"></div>
+
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-wa" viewBox="0 0 24 24"><path fill="currentColor" d="M12.04 2a9.9 9.9 0 0 0-8.5 15l-1.4 5 5.2-1.36A9.93 9.93 0 1 0 12.04 2Zm0 18.1a8.2 8.2 0 0 1-4.18-1.15l-.3-.18-3.08.8.82-3-.2-.31a8.2 8.2 0 1 1 6.94 3.84Zm4.5-6.14c-.25-.12-1.46-.72-1.69-.8-.23-.08-.39-.12-.55.12-.17.25-.64.8-.78.97-.14.16-.29.18-.53.06a6.7 6.7 0 0 1-3.37-2.94c-.25-.44.25-.41.72-1.36.08-.16.04-.3-.02-.42-.06-.12-.55-1.33-.76-1.82-.2-.48-.4-.41-.55-.42h-.47a.9.9 0 0 0-.66.31 2.77 2.77 0 0 0-.86 2.06 4.8 4.8 0 0 0 1 2.55 11 11 0 0 0 4.21 3.72c1.57.68 2.19.74 2.97.62.48-.07 1.46-.6 1.67-1.18.2-.58.2-1.07.14-1.18-.06-.1-.22-.16-.47-.29Z"/></symbol>
+  </svg>
+
+  <script src="productos.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
