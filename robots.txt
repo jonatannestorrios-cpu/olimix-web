@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://olimix-94d.pages.dev/sitemap.xml
